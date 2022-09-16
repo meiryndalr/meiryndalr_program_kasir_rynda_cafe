@@ -3,3 +3,10 @@ program kasir_rynda_cafe
 Deskripsi:
 var NC dan NM : char
 var  Q, HARGA dan TOTAL : integer
+
+Implementasi :
+READ AND WRITE "NC" with char
+READ AND WRITE "NM" with char
+READ AND WRITE "Q" with int
+READ HARGA with int
+STORE "TOTAL" with int
