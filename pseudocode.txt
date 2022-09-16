@@ -10,3 +10,6 @@ READ AND WRITE "NM" with char
 READ AND WRITE "Q" with int
 READ HARGA with int
 STORE "TOTAL" with int
+
+TOTAL <- Q * HARGA
+
