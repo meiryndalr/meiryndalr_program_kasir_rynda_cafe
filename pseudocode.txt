@@ -13,3 +13,7 @@ STORE "TOTAL" with int
 
 TOTAL <- Q * HARGA
 
+F NM && Q = true
+    THEN PRINT TOTAL
+ELSE WRITE NC && NM
+ENDIF
