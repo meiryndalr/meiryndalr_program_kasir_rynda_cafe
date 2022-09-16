@@ -17,3 +17,10 @@ F NM && Q = true
     THEN PRINT TOTAL
 ELSE WRITE NC && NM
 ENDIF
+
+IF READ pembayaran = via e-wallet THEN
+    PRINT "pembayaran terkonfirmasi"
+else
+    via cash THEN
+    PRINT "pembayaran terkonfirmasi"
+ENDIF
