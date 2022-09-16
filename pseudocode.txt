@@ -1,5 +1,5 @@
 program kasir_rynda_cafe
 
 Deskripsi:
-var NC dan NM:char
-var  Q, HARGA dan TOTAL:integer
+var NC dan NM : char
+var  Q, HARGA dan TOTAL : integer
