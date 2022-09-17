@@ -1,22 +1,23 @@
 program kasir_rynda_cafe
 
 Deskripsi:
-var NC dan NM : char
-var  Q, HARGA dan TOTAL : integer
+tampilan_kasir : record
+nama_cust, nama_menu : string
+quantity, harga_menu dan total : integer
 
 Implementasi :
-READ AND WRITE "NC" with char
-READ AND WRITE "NM" with char
-READ AND WRITE "Q" with int
-READ HARGA with int
-STORE "TOTAL" with int
+PRINT "tampilan_kasir"
+READ AND WRITE "nama_cust" with string
+READ AND WRITE "nama_menu" with string
+READ AND WRITE "quantity" with int
+READ "harga" with int
 
-TOTAL <- Q * HARGA
-
-IF NM && Q = true
-    THEN PRINT TOTAL
-ELSE WRITE NC && NM
+IF nama_menu && quantity = true
+    THEN (total = quantity * harga)
+ELSE WRITE nama_menu & quantity
 ENDIF
+
+STORE "total" with int
 
 IF READ pembayaran = via e-wallet THEN
     PRINT "pembayaran terkonfirmasi"
